@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+}
+
+.navbar {
+  border: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: #7293A0
+}
+
+.nav-left {
+  width: 100%;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  font-size: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0D5C63;
+}
+
+.nav-right {
+  width: 100%;
+  margin: 2px;
+  padding: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0D5C63;
+  
+}
+.nav-item-vc {
+  width: 150%;
+  padding: 2px;
+  font-size: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.nav-item {
+  width: 100%;
+  padding: 2px;
+  font-size: 18px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0D5C63
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+li a {
+  width: 100%;
+  padding: 2px;
+  font-size: 18px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Change the link color to #04151F (black coral) on hover */
+
+li a:hover {
+  background-color: #5A5A66;
+}
+
+.red-bg {
+  background-color: #e3170a;
+}
+
+.brown-bg {
+  background-color: #482728;
+}
+
+.light-tan-bg {
+  background-color: #e4ddd7;
+}
+
+.light-green-bg {
+  background-color: #d6ddd8;
+}
+
+.nav-brand {
+  font-size: 2rem;
+}
+
+.grid {
+}
+
+.grid-row {
+  height: 400px;
+  display: flex;
+}
+
+.grid-row 1 {
+  height: 350px;
+  display: flex;
+  background-color: #C6D4FF;
+}
+
+.grid-text home {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 45px;
+}
+
+
+.grid-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 45px;
+}
+
+.inner-text h2 {
+  margin: 15px auto;
+}
+
+.inner-text p {
+  line-height: 160%;
+}
+
+.inner-text ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+.inner-text li {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.fa-check-circle {
+  color: #59d683;
+}
+
+.quote-container {
+  text-align: center;
+}
+
+.inner-text .quote-text {
+  font-size: 1.5rem;
+  line-height: 160%;
+}
+.inner-text .quote-subtext {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-image {
+  background-color: #e3170a;
+  width: 50%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.grid-image-1 {
+  background-image: url("images/vatican city.jpg");
+}
+.grid-image-2 {
+  background-image: url("images/meeting-2.jpg");
+}
+.grid-image-3 {
+  background-image: url("images/meeting-3.jpg");
+}
+.grid-image-4 {
+  background-image: url("images/meeting-4.jpg");
+}
+.history-box{
+  background-color: #BCB8B1;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  line-height: 30px;
+
+}
+.culture {
+  padding: 15px;
+}
+
+.culture-header {
+  text-align: center;
+}
+
+.culture-container {
+  display: flex;
+  margin: auto;
+  width: 85%;
+}
+
+.culture-column {
+  width: 33.3333333333%;
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.culture-wrapper {
+  padding: 15px;
+  line-height: 160%;
+}
+
+.culture 1 {
+  line-height: 160%;
+}
+
+.cards-section {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding: 15px;
+}
+
+.card {
+  height: 450px;
+  background-color: #e4ddd7;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 0px 0px 5px #482728;
+}
+
+.card-image {
+  background-color: #e3170a;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-image-1 {
+  background-image: url("images/st peters.jpg");
+}
+.card-image-2 {
+  background-image: url("images/vatican museum.jpg");
+}
+.card-image-3 {
+  background-image: url("images/charts-3.jpg");
+}
+
+.card-text {
+  padding: 15px;
+  text-align: center;
+  line-height: 160%;
+}
+
+.link-wrapper {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.card-link:link {
+  text-decoration: none;
+  border: 2px solid #e3170a;
+  border-radius: 10px;
+  padding: 10px;
+  color: #e3170a;
+}
+
+.card-link:visited {
+  border: 2px solid #696D7D;
+  color: #e3170a;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #696D7D;
+}
+
+.footer-text {
+  text-align: center;
+}
