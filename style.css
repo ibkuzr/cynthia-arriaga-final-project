@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -97,10 +94,7 @@ li a:hover {
 
 .brown-bg {
   background-color: #482728;
-}
 
-.light-tan-bg {
-  background-color: #e4ddd7;
 }
 
 .light-green-bg {
@@ -133,7 +127,6 @@ li a:hover {
     align-items: center;
     padding: 45px;
 }
-
 
 .grid-text {
   width: 50%;
@@ -171,31 +164,38 @@ li a:hover {
 }
 
 .inner-text .quote-text {
-  font-size: 1.5rem;
-  line-height: 160%;
+  font-size: 1rem;
+  line-height: 150%;
 }
 .inner-text .quote-subtext {
   color: rgba(0, 0, 0, 0.4);
 }
-
 .grid-image {
   background-color: #e3170a;
   width: 50%;
   background-size: cover;
   background-position: center center;
 }
-
+.grid-image a{
+  background-color: #e3170a;
+  width: 50%;
+  background-size: cover;
+  background-position: center center;
+}
 .grid-image-1 {
   background-image: url("images/vatican city.jpg");
 }
 .grid-image-2 {
-  background-image: url("images/meeting-2.jpg");
+  background-image: url("images/Outside the Vatican.jpg");
 }
 .grid-image-3 {
-  background-image: url("images/meeting-3.jpg");
+  background-image: url("images/inside.jpg");
 }
 .grid-image-4 {
-  background-image: url("images/meeting-4.jpg");
+  background-image: url("images/Pope.jpg");
+}
+.grid-image-5 {
+  background-image: url("images/swiss guards.jpg");
 }
 .history-box{
   background-color: #BCB8B1;
@@ -209,6 +209,7 @@ li a:hover {
   padding: 40px;
   line-height: 30px;
 
+
 }
 .culture {
   padding: 15px;
@@ -221,27 +222,27 @@ li a:hover {
 .culture-container {
   display: flex;
   margin: auto;
-  width: 85%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  text-align: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  line-height: 30px;
 }
-
-.culture-column {
-  width: 33.3333333333%;
-  column-count: 3;
-  column-gap: 40px;
-}
-
-.culture-wrapper {
-  padding: 15px;
-  line-height: 160%;
-}
-
-.culture 1 {
-  line-height: 160%;
+.plaza {
+  background-image: url("images/plaza.jpg");
+  width: 90%;
+  background-size: cover;
+  background-position: center center;
+  float: left;
+  height:30%;
 }
 
 .cards-section {
   display: flex;
-  width: 85%;
+  width: 55%;
   margin: auto;
   padding: 15px;
 }
@@ -262,15 +263,14 @@ li a:hover {
   background-position: center center;
   background-size: cover;
 }
-
 .card-image-1 {
   background-image: url("images/st peters.jpg");
 }
 .card-image-2 {
-  background-image: url("images/vatican museum.jpg");
+  background-image: url("images/st peters.jpg");
 }
 .card-image-3 {
-  background-image: url("images/charts-3.jpg");
+  background-image: url("images/vatican museum.jpg");
 }
 
 .card-text {
